@@ -1,15 +1,15 @@
 import datetime as dt
 from obspy.clients.fdsn import Client
-client = Client("INGV")
+client = Client(" ")
 from obspy import UTCDateTime
 
-minlat = 42.5
-maxlat = 43.0
-minlon = 12.4
-maxlon = 13.8
-starttime = UTCDateTime("2012-01-01T00:00:00.")
-endtime = UTCDateTime("2016-09-30T23:59:59.")
-minmag = 1.0
+minlat = 
+maxlat = 
+minlon = 
+maxlon = 
+starttime = UTCDateTime(" ")
+endtime = UTCDateTime(" ")
+minmag = 
 
 temp_starttime = starttime
 temp_endtime = starttime+dt.timedelta(weeks=4)
