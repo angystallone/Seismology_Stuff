@@ -1,0 +1,7 @@
+import geopandas as gpd
+import fiona
+
+fiona.supported_drivers
+
+faults = gpd.read_file('[your_file_name].gdb/', layer=1)
+faults.to_file("faults.shp")
